@@ -15,13 +15,15 @@ import { PostModel } from './posts/posts.model';
 import { OrdersModule } from './orders/orders.module';
 import { Order } from './orders/orders.model';
 
+console.log('ПУТЬ:', path.resolve('./uploads'));
 @Module({
   imports: [
     ConfigModule.forRoot({
       envFilePath: `.${process.env.NODE_ENV}.env`,
     }),
     ServeStaticModule.forRoot({
-      rootPath: path.resolve('./uploads/products'),
+      rootPath: path.resolve('./uploads'),
+      serveRoot: '/api',
     }),
     SequelizeModule.forRoot({
       dialect: 'postgres',

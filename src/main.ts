@@ -18,7 +18,11 @@ async function start() {
 
   app.useGlobalPipes(new ValidationPipe());
   app.enableCors({
-    origin: ['http://localhost:5173', 'http://89.223.30.245:3000'],
+    origin: [
+      'http://localhost:4173',
+      'http://localhost:5173',
+      'http://89.223.30.245:3000',
+    ],
   });
 
   await app.listen(PORT, () =>

@@ -22,7 +22,7 @@ async function start() {
     origin: [
       'http://localhost:4173',
       'http://localhost:5173',
-      'http://89.223.30.245:3000',
+      'http://89.223.30.245',
     ],
   });
 

@@ -10,6 +10,10 @@
 - Backend (REST API): https://male-fashion.ru/api
 - Swagger: https://male-fashion.ru/api/docs
 
+ **Демо пользователь (для теста):** 
+ - Email - test@mail.com
+ - Пароль - Test123!
+
 **Ссылки на репозитории:**
 - Frontend: https://github.com/ShnaiderDanila/male-fashion-store-frontend
 - Backend: https://github.com/ShnaiderDanila/male-fashion-store-api

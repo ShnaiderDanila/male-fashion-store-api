@@ -23,9 +23,9 @@
   + POST /movies — создаёт фильм
   + DELETE /movies/:movieId — удаляет фильм по _id
 * Приложение развернуто на облачном сервере VSCALE
-* Подключен домен
+* Подключен домен male-fashion.ru (хостинг-провайдер - TimeWeb)
 * Настроен NGINX
-* Подключен SSL сертификат
+* Подключен SSL сертификат (certbot)
 
 ## Используемые технологии (Backend):
 ![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white)

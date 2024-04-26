@@ -10,7 +10,7 @@
 - Backend (REST API): https://male-fashion.ru/api
 - Swagger: https://male-fashion.ru/api/docs
 
- **Демо пользователь (тест):** 
+ **Демо пользователь (Front-end):** 
  - Email - test@mail.com
  - Пароль - Test123!
 

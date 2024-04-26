@@ -1,52 +1,56 @@
-# [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=30&pause=1000&random=false&width=500&lines=Male+Fashion)](https://git.io/typing-svg)
-Дипломный проект в рамках учебы в [Яндекс.Практикум](https://practicum.yandex.ru/) на факультете [Веб-разработчик](https://practicum.yandex.ru/web/)
+# [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=30&pause=1000&random=false&width=500&lines=Male-Fashion+(Backend))](https://git.io/typing-svg)
 
-![movies-explorer](https://github.com/ShnaiderDanila/movies-explorer-api/assets/116545792/6524a38c-c682-44b8-9be2-a1af4d0c957e)
+
 
 ## Описание проекта
-**Movies Explorer** - приложение для поиска и просмотра фильмов международного фестиваля документального кино о новой культуре **Beat Film Festival**. Отзывчиво-адаптивное приложение (SPA), написанное на React (frontend) и Express (backend).
+**Male-Fashion** - интернет-магазин мужской одежды (e-commerce). Отзывчиво-адаптивное Full-stack приложение.
 
 **Ссылки на проект:**
-- IP: 158.160.120.12
-- Frontend: https://movies-explorer.shndr.nomoredomainsrocks.ru
-- Backend: https://api.movies-explorer.shndr.nomoredomainsrocks.ru
+- Frontend: https://male-fashion.ru
+- Backend (REST API): https://male-fashion.ru/api
+- Swagger: https://male-fashion.ru/api/docs
 
 **Ссылки на репозитории:**
-- Frontend: https://github.com/ShnaiderDanila/movies-explorer-frontend
-- Backend: https://github.com/ShnaiderDanila/movies-explorer-api
+- Frontend: 
+- Backend: 
 
 ## Функциональность (Backend): 
 * Роуты для пользователей:
-  + GET /users/me — возвращает информацию о пользователе
+  + GET /api/products — возвращает список всех товаров
   + PATCH /users/me — обновляет информацию о пользователе
 * Роуты для фильмов: 
   + GET /movies — возвращает все фильмы из базы
   + POST /movies — создаёт фильм
-  + DELETE /movies/:movieId — удаляет фильм по _id 
+  + DELETE /movies/:movieId — удаляет фильм по _id
+* Приложение развернуто на облачном сервере VSCALE
+* Подключен домен
+* Настроен NGINX
+* Подключен SSL сертификат
 
 ## Используемые технологии (Backend):
-![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white)
-![Express.js](https://img.shields.io/badge/express.js-%23404d59.svg?style=for-the-badge&logo=express&logoColor=%2361DAFB)
-![MongoDB](https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white)
+![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white)
+![NestJS](https://img.shields.io/badge/nestjs-%23E0234E.svg?style=for-the-badge&logo=nestjs&logoColor=white)
+![Postgres](https://img.shields.io/badge/postgres-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white)
 ![Nginx](https://img.shields.io/badge/nginx-%23009639.svg?style=for-the-badge&logo=nginx&logoColor=white)
+![Swagger](https://img.shields.io/badge/-Swagger-%23Clojure?style=for-the-badge&logo=swagger&logoColor=white)
 
 ## 🚀 Запуск проекта (Backend):
 
 #### Клонировать репозиторий:
 ```
-git clone https://github.com/Shnd3r/movies-explorer-api.git
+git clone git@github.com:ShnaiderDanila/male-fashion-store-api.git
 ```
 #### Установить зависимости:
 ```
 npm install
 ```
-#### Запустить приложение:
+#### Запустить приложение в DEV MODE:
 ```
-npm run start
+npm run start:dev
 ```
-#### Запустить сервер с hot-reload:
+#### Запустить приложение в PROD MODE:
 ```
-npm run dev
+npm run start:prod
 ```
 
 ## Автор

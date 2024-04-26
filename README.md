@@ -1,6 +1,6 @@
 # [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=30&pause=1000&random=false&width=500&lines=Male-Fashion+(Backend))](https://git.io/typing-svg)
 
-
+![Swagger UI - Google Chrome 2024-04-27 00-57-29](https://github.com/ShnaiderDanila/male-fashion-store-api/assets/116545792/b235e855-785d-4d27-8dea-f99268839865)
 
 ## Описание проекта
 **Male-Fashion** - интернет-магазин мужской одежды (e-commerce). Отзывчиво-адаптивное Full-stack приложение.
@@ -11,16 +11,17 @@
 - Swagger: https://male-fashion.ru/api/docs
 
 **Ссылки на репозитории:**
-- Frontend: 
-- Backend: 
+- Frontend: https://github.com/ShnaiderDanila/male-fashion-store-frontend
+- Backend: https://github.com/ShnaiderDanila/male-fashion-store-api
 
 ## Функциональность (Backend): 
 * Реализованы контроллеры, провайдеры и сервисы товаров, пользователей, авторизации, постов блога и заказов (по классификации CRUD).
   Полный список можно посмотреть в документации Swagger - https://male-fashion.ru/api/docs
 * Настроена конфигурация переменных окружения .development.env и .production.env
-* Реализована регистрация с помощью JWT токена. С помощью guard ограничен доступ к некоторым ендпоинтам для неавторизованных пользователей
+* Реализована регистрация с помощью JWT токена.
+* С помощью guard ограничен доступ к некоторым роутам для неавторизованных пользователей
 * Настроена валидация данных через Class-validator и подключена через GlobalPipes
-* Настроена раздача статических файлов с сервера
+* Настроена раздача статических файлов
 * Приложение развернуто на облачном сервере VSCALE
 * Подключен домен male-fashion.ru (хостинг-провайдер - TimeWeb)
 * Настроен NGINX

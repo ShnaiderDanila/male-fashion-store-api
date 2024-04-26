@@ -7,6 +7,8 @@ async function start() {
   const PORT = process.env.PORT || 3000;
   const app = await NestFactory.create(AppModule, { cors: true });
 
+  app.setGlobalPrefix('api');
+
   // Swagger Config
   const config = new DocumentBuilder()
     .setTitle('Male Fashion REST API')
@@ -16,7 +18,6 @@ async function start() {
   const document = SwaggerModule.createDocument(app, config);
   SwaggerModule.setup('/api/docs', app, document);
 
-  app.setGlobalPrefix('api');
   app.useGlobalPipes(new ValidationPipe());
   app.enableCors({
     origin: [

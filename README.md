@@ -55,6 +55,7 @@ npm run start:dev
 ```
 #### Запустить приложение в PROD MODE:
 ```
+npm run build
 npm run start:prod
 ```
 
